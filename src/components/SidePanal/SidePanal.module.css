@@ -1,0 +1,21 @@
+.Aside{
+    width: 300px;
+    height: 100vh;
+    background-color: silver;
+    text-decoration: none;
+}
+
+.Aside div {
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+
+
+.Aside div:hover,
+.Aside div:active {
+    background-color: wheat;
+    /* color: white; */
+}

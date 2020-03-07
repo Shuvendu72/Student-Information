@@ -1,0 +1,42 @@
+.Content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 95%;
+    /* margin-left: auto; */
+}
+
+.Details {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+.container-items{
+    width: 100%;
+}
+
+.Detail {
+    height: 500px;
+    width: 300px;
+    padding: 16px;
+    text-align: center;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.DetailWrapper{
+    user-select: none;
+}
+img{
+    height: 80px;
+}
+.Detail:hover,
+.Detail:active {
+    background-color: #C0DDF5;
+}
+

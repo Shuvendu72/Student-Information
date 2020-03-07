@@ -1,0 +1,13 @@
+.MainPanal {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: royalblue;
+    margin-left: auto;
+}
+
+.Container {
+    width: 75%;
+    margin: auto;
+}
